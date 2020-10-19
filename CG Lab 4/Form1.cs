@@ -32,8 +32,7 @@ namespace CG_Lab_4
                 // меняем символ с этим индексом на 0
                 sb[seredina] = '0';
                 // формируем строку нового порядка кривой дракона
-                str = str + "1" + sb;
-               // MessageBox.Show(str);
+                str = str + "1" + sb
             }
             return str;
         }
